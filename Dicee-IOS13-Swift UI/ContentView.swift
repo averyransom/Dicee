@@ -20,9 +20,6 @@ struct ContentView: View {
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
             VStack{
-                Image("DiceeLogo")
-                    Spacer()
-                
                 HStack {
                     DiceView(n: leftDiceNumber)
                     DiceView(n: rightDiceNumber)
@@ -36,7 +33,7 @@ struct ContentView: View {
             })
             {
                 .foregroundColor(.white)
-                .backgroundColor(.red)
+                .backgroundColor(.orange)
                 .frame(width: 80.0, height: 50.0)
                     .overlay(Text: "Roll")
                         }
