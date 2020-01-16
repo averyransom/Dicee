@@ -33,7 +33,7 @@ struct ContentView: View {
             })
             {
                 .foregroundColor(.white)
-                .backgroundColor(.orange)
+                .backgroundColor(.yellow)
                 .frame(width: 80.0, height: 50.0)
                     .overlay(Text: "Roll")
                         }
